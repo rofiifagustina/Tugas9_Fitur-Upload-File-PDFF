@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Form Upload File PDF</title>
+  </head>
+  <body>
+    <h2>Unggah File PDF Anda</h2>
+    <form
+      action="proses-upload.php"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <p>
+        <label>Pilih File (PDF AJA):</label>
+        <input type="file" name="file_pdf" accept="application/pdf" />
+      </p>
+      <button type="submit">Unggah</button>
+    </form>
+  </body>
+</html>
